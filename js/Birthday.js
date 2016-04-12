@@ -27,7 +27,7 @@ BLENDING = true;
 /* if empty the text will be a random number */
 var TEXT;
 num = 0;
-TEXTArray = ["师傅", "姐姐", "23岁 ", "生日", "快乐"];
+TEXTArray = ["师傅", "姐姐", "22岁 ", "生日", "快乐"];
 
 QUALITY_TO_FONT_SIZE = [10, 12, 40, 50, 100, 350];
 QUALITY_TO_SCALE = [20, 6, 4, 2, 0.9, 0.5];
