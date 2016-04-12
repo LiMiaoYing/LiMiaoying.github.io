@@ -1,0 +1,495 @@
+body{
+	background:url(../images/bj.jpg) repeat;
+}
+
+.clear{
+	clear: both;
+}
+.header{
+	height: 534px;
+	width: 1020px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background: url(../images/head1.png) no-repeat;
+	
+}
+.all{
+	width: 1020px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	margin: 22px 0px 0px 63px;
+}
+/*图片滚播开始*/
+.slider{
+	width: 1020px;
+	height: 457px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+
+}
+.picture{
+	float: left;
+	margin: 58px 0px 0px 40px;
+	position: relative;
+	z-index: -1;
+}
+/*Nav开始*/
+.nav{
+	width: 1020px;
+	height: 70px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.nav ul{
+	
+	margin: 0px 5px 0px 30px;
+}
+.nav li{
+	float: left;
+	margin: 0px 45px 0px 0px;
+	width: 198px;
+	height: 70px;
+	display: block;
+}
+.nav li a{
+	width: 198px;
+	height: 70px;
+	display: block;
+}
+.nav .menu-1{
+	background: url(../images/anniu011.png);
+}
+.nav .menu-2{
+	background: url(../images/anniu033.png);
+}
+.nav .menu-3{
+	background: url(../images/anniu055.png);
+}
+.nav .menu-4{
+	background: url(../images/anniu077.png);
+}
+.nav .menu-1:hover{
+	background: url(../images/anniu0111.png);
+}
+.nav .menu-2:hover{
+	background: url(../images/anniu0333.png);
+}
+.nav .menu-3:hover{
+	background: url(../images/anniu0555.png);
+}
+.nav .menu-4:hover{
+	background: url(../images/anniu0777.png);
+}
+
+/*Content开始*/
+.content{
+	width: 1020px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.content .left{
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin: 0px 44px 0px 30px;
+}
+.weibo{
+	width: 198px;
+	height: 75px;
+}
+.content .right{
+	width: 680px;
+	height: 600px;
+	background: white;
+	float: left;
+}
+
+/*canvas开始*/
+.slider-brithday {
+	/*margin: auto;
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;*/
+	float: left;
+	margin: 54px 0px 0px 40px;
+	z-index: -1;
+	position: relative;
+}
+.footer{
+	height: 50px;
+	width: 1020px;
+	float: left;
+}
+
+
+/*第一个子页reason.html开始*/
+.head{
+	width: 1040px;
+	height: 300px;
+	overflow: hidden;
+	background: url(../images/bt01.png) no-repeat;
+	margin-bottom: -180px;
+}
+
+.reason{
+	width: 935px;
+	height: 420px;
+	float: left;
+	margin:0px 0px 0px 30px;
+	overflow: hidden;
+	background: url(../images/brand01.png) no-repeat ;
+
+}
+.pc{
+	width: 200px;
+	height: 270px;
+	float: left;
+	margin: 100px 0px 0px 50px;
+}
+.r-content{
+	width: 605px;
+	height: 330px;
+	float: left;
+	margin: 65px 30px 0px 50px;
+	font: 18px/28px "SimHei" ;
+	color: #EE749D;
+	overflow: hidden;
+}
+
+/*子页photo开始*/
+.photo{
+	width: 935px;
+	height: 1300px;
+	float: left;
+	margin:0px 0px 0px 30px;
+	overflow: hidden;
+	background: url(../images/brand02.png) no-repeat ;
+
+}
+
+/*第一个图片展示效果开始*/
+#carousel1 {
+	width:960px;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+	border-bottom:solid 1px #d8d9da;
+	margin:0 auto;
+	z-index: 10;
+}
+#carousel1 img {
+	border:none;
+	width:240px;
+	height:180px;
+	border:solid 1px #000;
+}
+#carousel1 #title-text {
+	font-size:22px;
+	margin:10px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #alt-text {
+	font-size:14px;
+	margin:5px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #user-c {
+	padding:0;
+	position:absolute;
+	right:15px;
+	bottom:10px;
+}
+#carousel1 .carouselLeft, #carousel1 .carouselRight {
+	position:absolute;
+	bottom:20px;
+	width:29px;
+	height:30px;
+	overflow:hidden;
+	cursor:pointer;
+}
+#carousel1 .carouselLeft {
+	right:60px;
+	/*background:url(../images/templatemo_slider_right.png) no-repeat;*/
+
+}
+#carousel1 .carouselRight {
+	right:808px;
+	/*background:url(../images/templatemo_slider_left.png) no-repeat;*/
+}
+
+.first{
+	margin: 80px 0px 0px 0px;
+}
+
+/*子页Travel开始*/
+.travel{
+	width: 935px;
+	height: 1770px;
+	float: left;
+	margin:0px 0px 0px 30px;
+	overflow: hidden;
+	background: url(../images/brand04.png) no-repeat;
+}
+.more{
+	margin: -58px 0px 0px 400px;
+}
+.more a{
+	width: 234px;
+	height: 72px;
+	display: block;
+	z-index: 999;
+	position: relative;
+}
+.more img{
+	width: 150px;
+	height: 46px;
+	display: block;
+}
+
+/*子页story开始*/
+.story{
+	width: 935px;
+	height: 600px;
+	float: left;
+	margin:0px 0px 0px 30px;
+	overflow: hidden;
+	background: url(../images/brand03.png) no-repeat ;
+
+}
+
+/*垂直时间轴开始*/
+/* history */
+.history {
+	width:935px;
+	height:1710px;
+	position:relative;
+	/*background:url("../images/history_bg.png") center no-repeat;*/
+	margin: 60px 0px 0px 0px;
+	font-size: 28px;
+}
+.start-history {
+	width:935px;
+	height:1770px;
+	/*margin:30px auto;*/
+	text-align:center;
+	background:url("../images/history_start.png") no-repeat top center;
+	display:block
+}
+.cc_history {
+	color:#2b2b2b;
+	font-size:36px;
+	font-weight:400;
+	display:block;
+	padding-top:43px
+}
+.next_history {
+	color:#bbb;
+	font-size:26px;
+	width:182px;
+	margin:0 auto;
+	border-bottom:1px solid #d1d1d1
+}
+.history-img {
+	height:1526px;
+	width:130px;
+	overflow:hidden;
+	float:left;
+	margin-top:24px;
+	margin-left:8px
+}
+.history_mid {
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	background:0
+}
+.history_left {
+	width:410px;
+	height:1550px;
+	float:left;
+	clear:left;
+	position:relative;
+	overflow:hidden
+}
+.history_right {
+	width:387px;
+	height:1465px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	margin: 85px 0px 0px 0px;
+}
+.history_R {
+	width:420px;
+	height:100px;
+	margin-left:500px
+}
+.history_L {
+	width:420px;
+	height:100px;
+	float:right;
+	margin-right:500px
+}
+.history_r_2005 {
+	margin-top:157px
+}
+.history_2007 {
+	width:420px;
+	height:100px;
+	background:#FFF;
+	margin-top:73px
+}
+.history_2005_span {
+	float:left;
+	line-height:100px;
+	font-size:42px;
+	color:#E7496C;
+}
+.history_2005_b {
+	width:280px;
+	height:58px;
+	float:left;
+	margin-top:21px;
+	background:url("../images/sprites.png") center;
+	background-position:0 -1300px
+}
+.history_r_month {
+	float:left;
+	color:#FFF;
+	display:block;
+	width:30px;
+	line-height:25px;
+	height:58px;
+	border-right:1px solid #FFF;
+	margin-left:25px
+}
+.history_r_text {
+	float: left;
+	font-size: 28px;
+	color: #FFF;
+	display: block;
+	height: 58px;
+	line-height: 52px;
+	padding-left: 36px;
+	text-align: left;
+}
+.year2006 {
+	margin-top:242px
+}
+.year2009 {
+	margin-top:65px
+}
+.year2011 {
+	margin-top:53px
+}
+.year211 {
+	margin-top:43px
+}
+.year2013 {
+	margin-top:62px
+}
+.yearalmost {
+	margin-top:73px
+}
+.yearalmostr {
+	margin-top:70px
+}
+.history_2008 {
+	width:420px;
+	height:100px;
+	background:#FFF;
+	margin-top:73px;
+	float:right
+}
+.history_2011 {
+	width:420px;
+	height:100px;
+	background:#FFF;
+	margin-top:43px;
+	float:right
+}
+.history_2006_span {
+	float:right;
+	line-height:100px;
+	font-size:42px;
+	color:#E7496C;
+}
+.history_2006_b {
+	width:280px;
+	height:58px;
+	float:right;
+	margin-top:21px;
+	background:url("../images/sprites.png") center;
+	background-position:0 -1200px
+}
+.blue {
+	background-position:0 -1400px!important
+}
+.blue_R {
+	background-position:0 -1500px!important
+}
+.yellow {
+	background-position:0 -1600px!important
+}
+.yellow_R {
+	background-position:0 -1700px!important
+}
+.history_l_month {
+	float:right;
+	color:#FFF;
+	display:block;
+	width:30px;
+	line-height:25px;
+	height:58px;
+	border-left:1px solid #FFF;
+	margin-right:37px
+}
+span.blue {
+	color:#E7496C;
+}
+span.yellow {
+	color:#E7496C;
+}
+.history_l_text {
+	float:left;
+	font-size:28px;
+	color:#FFF;
+	display:block;
+	height:58px;
+	line-height:44px;
+	padding-top:3px;
+	width:202px;
+	text-align:right;
+	padding-right:5px
+}
+.smalltext {
+	font-size:12px;
+	line-height:18px
+}
+.smalltxt {
+	font-size:12px
+}
+
+/*第三个展示图片开始*/
+#center{width:420px;margin:20px auto;}
+#dhtmlbook{background:#000;visibility:hidden;width:420px;position:relative;height:320px}
+#txtbox{font-size:0.8em;width:410px;color:#aba193;font-family:Verdana, Arial, Helvetica, sans-serif;position:absolute;top:320px;text-align:center;
+display: none;}
+.page{overflow:hidden;border-left:#000000 1px solid;width:50%;cursor:pointer;position:absolute;height:100%}
+.right{border-right:#000000 1px solid;left:50%}
+.turn{background:#000000}
+.img{width:200%;position:absolute;height:100%}
+/*第三个展示图片结束*/
+
+.third{
+	margin: 50px 0px 0px 0px;
+}

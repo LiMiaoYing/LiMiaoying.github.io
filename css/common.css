@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clearfix
+{
+    clear: both;
+	height:0;
+}
+a{
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+img{
+	border: 0px;
+	display: block; 
+}
+body{
+	font-family: 微软雅黑,Helvetica,Arial,sans-serif;
+	font-size:14px;
+}
+li{
+	list-style: none;
+}
+.pull-right{float:right}
+.pull-left{float:left}
+
+
